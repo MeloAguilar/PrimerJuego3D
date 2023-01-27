@@ -1,0 +1,303 @@
+Using pre-set license
+Built from '2022.2/release' branch; Version is '2022.2.3f1 (55531d7fa82e) revision 5591837'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'es' Physical Memory: 16168 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/carra/Proyectos Unity/PrimerProyecto3D
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+56511
+Successfully changed project path to: C:/Users/carra/Proyectos Unity/PrimerProyecto3D
+C:/Users/carra/Proyectos Unity/PrimerProyecto3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19704] Host "[IP] 172.26.128.1 [Port] 0 [Flags] 2 [Guid] 2982922253 [EditorId] 2982922253 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8D59HR1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19704] Host "[IP] 172.26.128.1 [Port] 0 [Flags] 2 [Guid] 2982922253 [EditorId] 2982922253 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8D59HR1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 21.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.3f1 (55531d7fa82e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/carra/Proyectos Unity/PrimerProyecto3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.2.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007765 seconds.
+- Loaded All Assemblies, in  0.458 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.316 seconds
+Domain Reload Profiling:
+	ReloadAssembly (261ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (187ms)
+				TypeCache.Initialize (185ms)
+					TypeCache.ScanAssembly (184ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (61ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\carra\Proyectos Unity\PrimerProyecto3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\carra\Proyectos Unity\PrimerProyecto3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.752 seconds
+Refreshing native plugins compatible for Editor in 6.83 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.606 seconds
+Domain Reload Profiling:
+	ReloadAssembly (225ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		LoadAllAssembliesAndSetupDomain (522ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (484ms)
+				TypeCache.Initialize (269ms)
+					TypeCache.ScanAssembly (265ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 10.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3500 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (75.4 KB). Loaded Objects now: 3949.
+Memory consumption went from 0.53 GB to 0.53 GB.
+Total: 4.123400 ms (FindLiveObjects: 0.526600 ms CreateObjectMapping: 0.542900 ms MarkObjects: 2.945000 ms  DeleteObjects: 0.107900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4962.331149 seconds.
+  path: Assets/Player/source/RED_Hood.obj
+  artifactKey: Guid(21769e49dcff1aa4890d34d4871b7f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Player/source/RED_Hood.obj using Guid(21769e49dcff1aa4890d34d4871b7f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b72d51dca97be08359a7da01789308b') in 0.424452 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 27.109331 seconds.
+  path: Assets/Player/source/resources
+  artifactKey: Guid(02b8e068b37ab8147af589f85d2d0c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Player/source/resources using Guid(02b8e068b37ab8147af589f85d2d0c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ffd8705e76e6784292ac173fe31ec2') in 0.010452 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011729 seconds.
+  path: Assets/Player/source/resources/alpga_eyes2.jpeg
+  artifactKey: Guid(2ef74b2e6d0151242af1210b85ec0414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Player/source/resources/alpga_eyes2.jpeg using Guid(2ef74b2e6d0151242af1210b85ec0414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78bd7ba9ca64a08a2d5f0ca4757df14') in 0.039039 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Player/source/resources/vestido_low_vestido_Roughness.png
+  artifactKey: Guid(92034001a11a12641b6ae33bf8b0e8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Player/source/resources/vestido_low_vestido_Roughness.png using Guid(92034001a11a12641b6ae33bf8b0e8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18edaaea43e4f10d1a0ff01143704f1a') in 0.020386 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Player/source/resources/ojos.png
+  artifactKey: Guid(2b1ce9ab281d09a49a3843291145c520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Player/source/resources/ojos.png using Guid(2b1ce9ab281d09a49a3843291145c520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c59fc7bbe377f8f4507d47921455d0') in 0.012050 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Player/source/resources/cuerp_low_Material.001_Metallic.png
+  artifactKey: Guid(cdfddf1b314515c419c6bc4315445abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Player/source/resources/cuerp_low_Material.001_Metallic.png using Guid(cdfddf1b314515c419c6bc4315445abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446981742bedcfe4e59ff4ac3bb5b474') in 0.010273 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Player/source/resources/coat_red_coat_red_Metallic.png
+  artifactKey: Guid(87db58981e2779145914d9f6e0285dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Player/source/resources/coat_red_coat_red_Metallic.png using Guid(87db58981e2779145914d9f6e0285dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7471ed331ffc5c6dc49dcddd55b27c9') in 0.016999 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Player/source/resources/rubia_cejas.png
+  artifactKey: Guid(f2b3b9924f936a244ba1d8d9411a9da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Player/source/resources/rubia_cejas.png using Guid(f2b3b9924f936a244ba1d8d9411a9da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55dd32b32fafd4c1bb1b3aa5a4d8725') in 0.013598 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Player/source/resources/coat_red_coat_red_Height.png
+  artifactKey: Guid(001d5966d544ce645b8227f09e3dcf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Player/source/resources/coat_red_coat_red_Height.png using Guid(001d5966d544ce645b8227f09e3dcf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8faef2c0accfd3ccafc9ecf30510c1e') in 0.016438 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Player/source/resources/eyebrows1.jpg
+  artifactKey: Guid(13bab141db9e96045aa322f3d020deba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Player/source/resources/eyebrows1.jpg using Guid(13bab141db9e96045aa322f3d020deba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b1f5f88b11515080885a6a63ef286f') in 0.009785 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Player/source/resources/cuerp_low_Material.001_Normal.png
+  artifactKey: Guid(cbb8f302682dc1142a68548ff2065980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Player/source/resources/cuerp_low_Material.001_Normal.png using Guid(cbb8f302682dc1142a68548ff2065980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dced2dc93e11e70098792b33d82e247b') in 0.013484 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Player/source/resources/normal_csabello2.png
+  artifactKey: Guid(ced93de0e49ef034cab3107c915afcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Player/source/resources/normal_csabello2.png using Guid(ced93de0e49ef034cab3107c915afcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae563c3a53091012d6d2fe52e61695aa') in 0.010771 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Player/source/resources/coat_red_coat_red_Roughness.png
+  artifactKey: Guid(17cbebfdc16439240818604e0c92ab36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Player/source/resources/coat_red_coat_red_Roughness.png using Guid(17cbebfdc16439240818604e0c92ab36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f9ad74c8d688119a9b8b67b1723bd1') in 0.014112 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Player/source/resources/cuerp_low_Material.001_Height.png
+  artifactKey: Guid(aa847e6300fec0648a8aff22a1dadd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Player/source/resources/cuerp_low_Material.001_Height.png using Guid(aa847e6300fec0648a8aff22a1dadd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b204c38ba9647990e2f804926be52d5') in 0.014584 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Player/source/resources/fur_alpha.png
+  artifactKey: Guid(507d225d97d119046afb581d5849a44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Player/source/resources/fur_alpha.png using Guid(507d225d97d119046afb581d5849a44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80dddfb174dc85c41a53dfbe46675802') in 0.012687 seconds 
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
